@@ -41,7 +41,7 @@ but also from a `version.json` file if present at the root of the project.
 ## Usage
 
 ```js
-const log = require('@webinmove/gazeti')
+const log = require('@auctelia/gazeti')
   .create({ module: module.id });
 
 log.debug('event', {

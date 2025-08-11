@@ -76,7 +76,7 @@ describe('Class Gazeti', () => {
           hostname,
           pid,
           version,
-          name: '@webinmove/gazeti',
+          name: '@auctelia/gazeti',
           module: 'test',
           event: 'TEST_EVENT',
           indexed: { val: 1 },
@@ -98,7 +98,7 @@ describe('Class Gazeti', () => {
     it('should log in the good pretty format', (done) => {
       const destination = destinationStream(outputText => {
         expect(outputText.split('\n')).to.deep.equal([
-          `["2019-01-01T00:00:00.000Z"] \u001b[32mINFO \u001b[39m (@webinmove/gazeti/${pid} on ${hostname}):`,
+          `["2019-01-01T00:00:00.000Z"] \u001b[32mINFO \u001b[39m (@auctelia/gazeti/${pid} on ${hostname}):`,
           `    version: "${version}"`,
           '    module: "test"',
           '    event: "TEST_EVENT"',
@@ -127,7 +127,7 @@ describe('Class Gazeti', () => {
           hostname,
           pid,
           version,
-          name: '@webinmove/gazeti',
+          name: '@auctelia/gazeti',
           module: 'test',
           event: 'TEST_EVENT',
           indexed: { val: 1 },
