@@ -1,5 +1,5 @@
 {
-  "name": "@webinmove/gazeti",
+  "name": "@auctelia/gazeti",
   "version": "1.0.3",
   "description": "A basic Logger object that force a logging format for a correct logstash extraction",
   "main": "src/index.js",
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webinmove/gazeti.git"
+    "url": "git+https://github.com/auctelia/gazeti.git"
   },
   "keywords": [
     "log",
     "logger"
   ],
-  "author": "@webinmove",
+  "author": "@auctelia",
   "contributors": [
     "Olivier Cuypers <oliviercuyp@gmail.com>",
     "Louis Borsu <sat@satprod.net>",
@@ -28,9 +28,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webinmove/gazeti/issues"
+    "url": "https://github.com/auctelia/gazeti/issues"
   },
-  "homepage": "https://github.com/webinmove/gazeti#readme",
+  "homepage": "https://github.com/auctelia/gazeti#readme",
   "dependencies": {
     "pino": "^5.13.3",
     "pino-pretty": "^3.2.1"
